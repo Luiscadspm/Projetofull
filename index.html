@@ -7,6 +7,44 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+
+<h1> Loja de Roupas</h1>
+
+    </header>
+<main>
+        <section id="Produtos">
+        <h2>Nossas Roupas</h2>
+                <div class="Produtos">
+                    <img src="/images/camisa.png" alt="camisa">
+                    <h3>Camiseta Basica</h3>
+                    <p>R$50.00</p>
+                    <button class="add-carrinho" data-name="camiseta Basica" data-preco="50">Adicionar Carrinho </button>
+                </div>
+
+                <div class="Produtos">
+                    <img src="/images/calca.png" alt="calca">
+                    <h3>Camiseta Estampada</h3>
+                    <p>R$50.00</p>
+                    <button class="add-carrinho" data-name="camiseta Estampada" data-preco="50">Adicionar Carrinho </button>
+                </div>
+
+                <div class="Produtos">
+                    <img src="/images/tenis.png" alt="tenis">
+                    <h3>Camiseta de Manga Longa</h3>
+                    <p>R$50.00</p>
+                    <button class="add-carrinho" data-name="camiseta Manga Longa" data-preco="50">Adicionar Carrinho </button>  
+                </div>    
+</section>
+        <aside id="Carrinho">
+            <h2>Carrinho</h2>
+            <ul id="itens-carrinho">
+
+            </ul>
+            <p>Total: R$ <span id="Total">0</span>,00</p>
+        </aside>
+</main>
+
+        <script> src="main.js"</script>
 </body>
 </html>
