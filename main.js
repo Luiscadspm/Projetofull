@@ -1,5 +1,5 @@
 const botoes = document.querySelectorAll('.add-carrinho');
-const itensCarrinho = document.querySelector('.itens-carrinho');
+const itensCarrinho = document.getElementById('.itens-carrinho');
 const total = document.getElementById('total');
 
 let totalpreco = 0;
